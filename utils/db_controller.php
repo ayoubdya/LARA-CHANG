@@ -10,7 +10,7 @@ class DBController
   // clever-cloud.com DATABASE
   private $host = "bcjbhbivptnsxz8jlkn3-mysql.services.clever-cloud.com";
   private $username = "uoofmc1b9g3ikf1l";
-  private $password = "PASS";
+  private $password = "<PASSWORD>";
   private $database = "bcjbhbivptnsxz8jlkn3";
 
   public $con = null;

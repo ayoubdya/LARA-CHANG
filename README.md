@@ -1,8 +1,3 @@
-DATABASE CREDENTIALS
+![img](https://i.imgur.com/tDmFtUb.jpg)
 
-$host = "bcjbhbivptnsxz8jlkn3-mysql.services.clever-cloud.com";\
-$username = "uoofmc1b9g3ikf1l";\
-$password = "PASS";\
-$database = "bcjbhbivptnsxz8jlkn3";\
-
-mysql -hbcjbhbivptnsxz8jlkn3-mysql.services.clever-cloud.com -P3306 -uuoofmc1b9g3ikf1l -pdNapk2OgANrQJPHxyxfL bcjbhbivptnsxz8jlkn3
+![img](https://i.imgur.com/6GXRyTa.png)
