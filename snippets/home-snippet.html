@@ -1,0 +1,40 @@
+<div class="jumbotron">
+  <img
+    src="images/jumbotron_768.jpg"
+    alt="Picture of restaurant"
+    class="img-responsive visible-xs"
+  />
+</div>
+
+<div id="home-tiles" class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <a href="#" onclick="$dc.loadMenuCategories();"
+      ><div id="menu-tile"><span>menu</span></div></a
+    >
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}})">
+      <div id="specials-tile"><span>specials</span></div>
+    </a>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+    <a
+      href="https://www.google.com/maps/place/ENSAM+CASABLANCA/@33.5585176,-7.568518,17z/data=!4m15!1m8!3m7!1s0xda6332908d1d61b:0x569d5bec37f7f81a!2sENSAM+CASABLANCA!8m2!3d33.5594027!4d-7.5661469!10e1!16s%2Fg%2F1pp2wz454!3m5!1s0xda6332908d1d61b:0x569d5bec37f7f81a!8m2!3d33.5594027!4d-7.5661469!16s%2Fg%2F1pp2wz454?hl=fr&entry=ttu"
+      target="_blank"
+    >
+      <div id="map-tile">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3324.802106897562!2d-7.568518!3d33.5585176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda6332908d1d61b%3A0x569d5bec37f7f81a!2sENSAM%20CASABLANCA!5e0!3m2!1sfr!2sma!4v1686441162119!5m2!1sfr!2sma"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <span>map</span>
+      </div>
+    </a>
+  </div>
+</div>
+<!-- End of #home-tiles -->
